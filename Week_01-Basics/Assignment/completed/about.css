@@ -1,26 +1,15 @@
 /*style.css*/
 
-<style>
 
-body{
-     background-image: URL("./images/background.jpg");
-    }
-
-h1{
-   text-align:center; 
-      }
-	  
-img{
-	 float:;
-   }
-
-hr.type_4 {
-border: 0;
-height: 55px;
-background-image: url(./images/type_4.png);
-background-repeat: no-repeat;
-
+    
+body {
+    background-color: #cccccc;
+    background-image:url('./images/bg.jpg');
 }
+
+
+h1{font-family:cursive; }
+
    
-</style>
+
 
