@@ -3,13 +3,32 @@
 
     
 body {
-    background-color: #cccccc;
-    background-image:url('./images/bg.jpg');
+    background-color: #0066CC;
+    /*background-image:url('./images/bg.jpg');*/
 }
 
 
-h1{font-family:cursive; }
+h1 {
+    font-family:cursive; 
+    font-size: 80px;
+    color: #FF9933;
+    
+    }
 
    
 
 
+h2{
+  color:white ;
+  /*font-size:20px;*/
+    
+ }
+ 
+ .boxed {
+
+  height: 25px ;
+
+width: 220px ;
+
+font-size: 14px ;
+}
