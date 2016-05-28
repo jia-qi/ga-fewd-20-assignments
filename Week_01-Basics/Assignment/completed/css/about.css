@@ -1,3 +1,4 @@
+
 /*style.css*/
 
 
@@ -10,7 +11,7 @@ body {
 
 h1 {
     font-family:cursive; 
-    font-size: 80px;
+    font-size: 60px;
     color: #8B7B8B;
     
     }
@@ -37,14 +38,12 @@ h3{
 }
 
 img{
-    width: 600px;
+    width: 300px;
     position: relative;
     right: 50px; 
     }
     
-ul{
-    }
-    
+   
 li {
      display:inline-block;
      padding: 14px 16px;
@@ -54,30 +53,12 @@ li {
       }
 .menu{
       position:relative;
-      left:800px;
+      padding-bottom:30px;
+     
       }
-/*    
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
-li {
-    float: left;
-}
+.active{
+        background-color: pink;
+        color: gray;
+        }
 
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-*/
