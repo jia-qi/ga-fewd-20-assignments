@@ -1,5 +1,10 @@
 
-/*style.css*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 
     
@@ -31,11 +36,13 @@ h3{
  
  .boxed {
           height: 300px ;  
-          width: 520px ;
+          width: 500px ;
           font-size: 14px ;
           position: relative;
           left: 200px;
           background-color: #9AC0CD;
+          border: 4px solid white;
+          padding: 20px;
 }
 
 img{
@@ -43,6 +50,7 @@ img{
     position: relative;
     right: 200px; 
     bottom: 290px;
+    border: 4px solid #9AC0CD; 
     }
     
    
@@ -70,4 +78,11 @@ li {
       background-color: #CDC1C5;
       position: relative;
       bottom: 10px;
+      top: 1px;
+      /*max-width: px;*/
+      margin: auto;
+      border: 4px solid #9AC0CD ;
+      
+      
  }
+ 
