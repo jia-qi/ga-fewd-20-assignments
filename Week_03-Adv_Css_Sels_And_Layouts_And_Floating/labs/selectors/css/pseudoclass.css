@@ -1,6 +1,23 @@
 
 /** CSS RULES GO IN HERE */
+a:hover{
+	background-color: pink;
 
+}
+
+a
+ {text-decoration: none;
+  padding: 10px;
+  color: orange;
+  }
+
+  a#yahoo{
+  	font-size: 20px;
+  }
+
+article.myarticle:first-child{
+	background-color: #FF00B8;
+}
 
 
 
