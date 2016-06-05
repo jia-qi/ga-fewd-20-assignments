@@ -15,7 +15,8 @@ footer nav a{
    }
    
 a#navnext{
-  float:lef;
+  width: 100px;
+  float:left;
   color:red; }
   
 a#navhome{
@@ -23,7 +24,8 @@ a#navhome{
  }
   
 a#navprev{
-  float:righ; }
+  float:right;
+  width: 100px; }
   
 nav a:hover{
 background-color: gray; }
