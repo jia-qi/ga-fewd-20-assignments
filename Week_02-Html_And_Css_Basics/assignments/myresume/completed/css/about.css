@@ -34,7 +34,7 @@ h3{
    color: black; 
    }
  
- .boxed {
+div.boxed {
           height: 300px ;  
           width: 500px ;
           font-size: 14px ;
