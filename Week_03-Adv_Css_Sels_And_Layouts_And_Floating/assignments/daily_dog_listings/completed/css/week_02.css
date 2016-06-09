@@ -29,7 +29,7 @@ h1{
   body {
     padding: 0px;
     margin: 0px;
-    background-color: pink;
+    background-color: ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,17 +40,68 @@ header {
   
 
 div.pic {
-    width: 100px;/*not working ???!!!!?*/
-    height: 100px;    }
+    width: 00px;
+    height: 00px; 
+    padding: 10px;
+    margin-top: 25px;
+    float:clear;  }
 
     
-div.description{
-  width:40%;
-  position:relative;
+div.des{
+  width:900px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 30px;}
+  /*position:relative;
   left: 600px;
+  }
+  */
   
-   }
+   article#listing2 div.pic{
+   float: right;
+   margin-right: 265px; 
+  }
+  
+  
+article#listing1 div.pic{
+float:left; }
+
+article#listing1 div.des{
+  float: right;
+  text-align:left; 
+  margin-left: 0px;}
+  
+.clearfix {
+    clear: both;
+}
+
+article#listing2 div.des{
+ text-align:right; }
  
+p{font-size: 20px; }
+
+  
+ 
+/*
+article#listing1 div.description {
+    text-align: left;
+}
+
+article#listing1 div.pic,
+article#listing1 div.description {
+  float: left;  
+}
+
+article#listing2 div.description {
+    text-align: right;
+}
+
+article#listing2 div.pic,
+article#listing2 div.description {
+  float: right;
+}
+
+*/
 /*   
 div.description {
     width: 50%;
