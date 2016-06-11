@@ -20,5 +20,13 @@ body {
 
 #box {
   /* RULES GO HERE */
-}
+  background-color: red;
+  width: 200px;
+  height:200px;
+  position: absolute;
+  right: 300px;
+  bottom:300px;
+
+  } 
+
 
