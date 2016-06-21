@@ -7,62 +7,22 @@ html{
   box-sizing:inherit; 
 }
 
-body{
-  background-color:;
- }
- 
-   #galaxy { /* why is this controlling the sun?, shouldn't be #sun*/
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 500px;
-    transform: translate(-50%, -50%);/*dont get how its shifting?*/
-}
- 
-   
-   #galaxy > #sun {
-   background: radial-gradient(circle at 100px 100px, blue, white);/*100px 100px-position of where
-   gradient starts, so center of circle is 100 the the right, 100 down*/
-    border-radius: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;}
-    z-index: 100;}/* ???????*?
-   
-/* formal syntax
-
-<length> ] [ at <position> ]? ,
-                 | [ ellipse || [<length> | <percentage> ]{2}] [ at <position> ]? ,
-                 | [ [ circle | ellipse ] || <extent-keyword> ] [ at <position> ]? ,
-                 | at <position> ,
-                 <color-stop> [ , <color-stop> ]+ )
-where <extent-keyword> = closest-corner | closest-side | farthest-corner | farthest-side
-  and <color-stop> = <color> [ <percentage> | <length> ]? 
-  */
- 
-#galaxy > #axis { /*controls axis on bottom-not showing */
-    width: 100px;
-    height: 140%;
-    border: 10px dotted black;
-    position: absolute;
-    top: -20%;
-    left: 50%;
-    z-index: 1;
-    transform: rotate(16deg);
-}
-#galaxy > .planets {
-    border-radius: 100%; /*=circle*/
-    position: absolute;
-}
-
-#galaxy > #planet1 {
-  background: radial-gradient(circle at 0px 0px, red, black);
-  top: 100px;
-  left: 0px;
-  width: 40px;
-  height: 40px;
-  z-index: 1; /*????*/
-}
+#box{
+  width: 600px;
+  height:600px;
+  background-color:purple;
+  border-radius: 50% }
+  
+  #box2{
+  width: 200px;
+  height:200px;
+  background-color: green;
+  z-index: 2; 
+  border-radius: 50% }
+  
+#box3{
+  width:150px;
+  height:150px;
+  background-color: blue;
+  z-index: 3 ;
+  border-radius: 50%; }
